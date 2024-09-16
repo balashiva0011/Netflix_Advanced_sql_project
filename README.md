@@ -222,7 +222,7 @@ WHERE casts LIKE '%Ajay Devgn%'
   AND release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
-**Objective:** Count the number of movies featuring 'Akshay Kumar' in the last 10 years.
+**Objective:** Count the number of movies featuring 'Ajay Devgn' in the last 10 years.
 
 ### 14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
 
