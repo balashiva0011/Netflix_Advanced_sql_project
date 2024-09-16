@@ -213,16 +213,16 @@ WHERE director IS NULL;
 
 **Objective:** List content that does not have a director.
 
-### 13. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
+### 13. Find How Many Movies Actor 'Ajay Devgn' Appeared in the Last 10 Years
 
 ```sql
 SELECT * 
 FROM netflix
-WHERE casts LIKE '%Salman Khan%'
+WHERE casts LIKE '%Ajay Devgn%'
   AND release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
-**Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
+**Objective:** Count the number of movies featuring 'Akshay Kumar' in the last 10 years.
 
 ### 14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
 
