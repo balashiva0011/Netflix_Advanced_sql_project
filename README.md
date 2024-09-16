@@ -12,3 +12,6 @@ This project showcases advanced SQL techniques used for analyzing and managing l
 - Complex SQL queries for user behavior analysis.
 - Data modeling and schema design for large datasets.
 - Performance tuning and optimization strategies.
+
+# Dataset
+The data for this project is sourced from the Kaggle dataset:
